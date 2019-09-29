@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 0px;
+}
+
+app-square {
+    border: -2px pink solid;
+    margin: 0;
+}
+
+app-square button {
+    color: blue;
+}
