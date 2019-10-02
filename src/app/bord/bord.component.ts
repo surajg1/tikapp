@@ -28,7 +28,7 @@ export class BordComponent implements OnInit {
   }
 
   makeMove(idx:number){
-    if(!this.squares[idx]){
+    if(!this.squares[idx]){ 
       this.squares.splice(idx,1,this.player);
       this.xIsNext=!this.xIsNext;
     }
@@ -60,6 +60,7 @@ calculateWinner(){
       ){
         return this.squares[a];
       }
+      
     }
     return null;
 }
